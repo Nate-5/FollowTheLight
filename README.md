@@ -1,1 +1,4 @@
 # FollowTheLight
+
+
+Maze Game.
