@@ -15,7 +15,7 @@ C:/Users/khumn010/Documents/GitHub/FollowTheLight/maze-game
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-54515
+49325
 Successfully changed project path to: C:/Users/khumn010/Documents/GitHub/FollowTheLight/maze-game
 C:/Users/khumn010/Documents/GitHub/FollowTheLight/maze-game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/khumn010/Documents/GitHub/FollowTheLight/maze-game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 86.00 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 108.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -63,92 +63,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56056
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56216
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.013288 seconds.
+Registered in 0.016326 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 71.37 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 107.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.660 seconds
+- Completed reload, in  0.873 seconds
 Domain Reload Profiling:
-	ReloadAssembly (660ms)
-		BeginReloadAssembly (118ms)
+	ReloadAssembly (874ms)
+		BeginReloadAssembly (122ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (412ms)
-			LoadAssemblies (113ms)
+		EndReloadAssembly (587ms)
+			LoadAssemblies (116ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (92ms)
+			SetupTypeCache (139ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (243ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (337ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (71ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (114ms)
-				ProcessInitializeOnLoadMethodAttributes (47ms)
+				RefreshPlugins (108ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (152ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.020800 seconds.
+Registered in 0.013141 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\khumn010\Documents\GitHub\FollowTheLight\maze-game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\khumn010\Documents\GitHub\FollowTheLight\maze-game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 73.58 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 105.36 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.356 seconds
+- Completed reload, in  1.755 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1357ms)
-		BeginReloadAssembly (127ms)
+	ReloadAssembly (1756ms)
+		BeginReloadAssembly (170ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (1087ms)
-			LoadAssemblies (194ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1425ms)
+			LoadAssemblies (190ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (275ms)
+			SetupTypeCache (382ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (536ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (720ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (74ms)
-				BeforeProcessingInitializeOnLoad (89ms)
-				ProcessInitializeOnLoadAttributes (328ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
-				AfterProcessingInitializeOnLoad (15ms)
+				RefreshPlugins (105ms)
+				BeforeProcessingInitializeOnLoad (126ms)
+				ProcessInitializeOnLoadAttributes (415ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (23ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.21 seconds
-Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3571 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 47 unused Assets / (1.5 MB). Loaded Objects now: 4046.
-Memory consumption went from 143.4 MB to 141.9 MB.
-Total: 4.354500 ms (FindLiveObjects: 0.341200 ms CreateObjectMapping: 0.403700 ms MarkObjects: 3.250900 ms  DeleteObjects: 0.357700 ms)
+Unloading 48 unused Assets / (1.6 MB). Loaded Objects now: 4029.
+Memory consumption went from 131.1 MB to 129.6 MB.
+Total: 4.088600 ms (FindLiveObjects: 0.312500 ms CreateObjectMapping: 0.302500 ms MarkObjects: 2.972800 ms  DeleteObjects: 0.499500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -162,88 +162,28 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 556218.735907 seconds.
-  path: Assets/Skeleton - Animated and Low Polygon/Textures/Unity4/Skeleton_Body_DiffuseGlossiness.png
-  artifactKey: Guid(9855076cdf03b7244b5eb7c248ba0b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Skeleton - Animated and Low Polygon/Textures/Unity4/Skeleton_Body_DiffuseGlossiness.png using Guid(9855076cdf03b7244b5eb7c248ba0b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ea90e5512fbb0407528e1c75a705459') in 0.510489 seconds 
+  Time since last request: 98355.269305 seconds.
+  path: Assets/Textures/NewBrush.brush
+  artifactKey: Guid(8f3aacc29e3df514fbb0de4b5945837b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/NewBrush.brush using Guid(8f3aacc29e3df514fbb0de4b5945837b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05bb55aceb06ba4c599aff8401cee51a') in 0.118171 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.344435 seconds.
-  path: Assets/Futuristic_soldier/Textures/SRP and URP/Green/Soldier_AlbedoTransparency.png
-  artifactKey: Guid(fcc69a96f07915c4a8abc04a2d0d979e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Futuristic_soldier/Textures/SRP and URP/Green/Soldier_AlbedoTransparency.png using Guid(fcc69a96f07915c4a8abc04a2d0d979e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c65c0ef17b776f63e527cec0c41a42b') in 0.105548 seconds 
+  Time since last request: 0.000032 seconds.
+  path: Assets/Textures/Stone.png
+  artifactKey: Guid(51467068475390d41943d078f9ddc740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Stone.png using Guid(51467068475390d41943d078f9ddc740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a02100d3615fdf982e33bc769015d35') in 0.114133 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Futuristic_soldier/Textures/HDRP_MaskMap/Blue/Soldier_blue_MaskMap.png
-  artifactKey: Guid(007f80a8ce54ddf419fe5a1fa1936f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Futuristic_soldier/Textures/HDRP_MaskMap/Blue/Soldier_blue_MaskMap.png using Guid(007f80a8ce54ddf419fe5a1fa1936f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5135f360fa175919c6c600a010d94057') in 0.080037 seconds 
+  Time since last request: 0.000028 seconds.
+  path: Assets/Textures/Brick.png
+  artifactKey: Guid(e157b2be60b291144985baa0f0d2fc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Brick.png using Guid(e157b2be60b291144985baa0f0d2fc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a09ad7e686c21d026e051f5907c82bd') in 0.021959 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Skeleton - Animated and Low Polygon/Textures/SpecGloss/Skeleton_Body_SpecularSmoothness.png
-  artifactKey: Guid(6733efdccce78bb458b8b3a90ab46494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Skeleton - Animated and Low Polygon/Textures/SpecGloss/Skeleton_Body_SpecularSmoothness.png using Guid(6733efdccce78bb458b8b3a90ab46494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2086822f1b350535624aad2aee32837a') in 0.061728 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Futuristic_soldier/Textures/SRP and URP/Blue/Soldier_AO.png
-  artifactKey: Guid(d1a53df2205a16048937dd18f72c762d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Futuristic_soldier/Textures/SRP and URP/Blue/Soldier_AO.png using Guid(d1a53df2205a16048937dd18f72c762d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb0a02551e54c026026f375ba7618fc') in 0.065305 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Futuristic_soldier/Textures/SRP and URP/Green/Soldier_MetallicSmoothness.png
-  artifactKey: Guid(24a77f908ad100d4c85417710bae89e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Futuristic_soldier/Textures/SRP and URP/Green/Soldier_MetallicSmoothness.png using Guid(24a77f908ad100d4c85417710bae89e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a478c924a93060627cb5c9c24b605c69') in 0.067740 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Futuristic_soldier/Textures/HDRP_MaskMap/Green/Soldier_green_MaskMap.png
-  artifactKey: Guid(fd6e6e5741c6f8a47bb3c974ab4515bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Futuristic_soldier/Textures/HDRP_MaskMap/Green/Soldier_green_MaskMap.png using Guid(fd6e6e5741c6f8a47bb3c974ab4515bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c065d7240a26984d551a703f690f6a8c') in 0.072605 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.049993 seconds.
-  path: Assets/Futuristic_soldier/Textures/SRP and URP/Red/Soldier_MetallicSmoothness.png
-  artifactKey: Guid(eea682b60077ada4dbbbfce3628923b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Futuristic_soldier/Textures/SRP and URP/Red/Soldier_MetallicSmoothness.png using Guid(eea682b60077ada4dbbbfce3628923b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00ef8fddfbfa0aef3d42ae8dd2336c81') in 0.063381 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.736894 seconds.
-  path: Assets/Futuristic_soldier/Textures/SRP and URP/Blue/Soldier_Normal.png
-  artifactKey: Guid(2514d0b1f154088499e4cb376c4015f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Futuristic_soldier/Textures/SRP and URP/Blue/Soldier_Normal.png using Guid(2514d0b1f154088499e4cb376c4015f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df9ef6fc05f26b0200c8ac4f4e29741') in 0.143208 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.092535 seconds.
-  path: Assets/cave_troll/textures/troll_hair_albedo.tga
-  artifactKey: Guid(d0bde601812a6554eb163f455d1f0414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/cave_troll/textures/troll_hair_albedo.tga using Guid(d0bde601812a6554eb163f455d1f0414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '886cc8dc0c9fef14d8dc5fd542aeb3e0') in 0.036609 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.171895 seconds.
-  path: Assets/cave_troll/textures/troll_hair_normal.tga
-  artifactKey: Guid(bf5ded56aba3e0a4a9ee58de939c08f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/cave_troll/textures/troll_hair_normal.tga using Guid(bf5ded56aba3e0a4a9ee58de939c08f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f86a332eef58c20fadd7b6bbbd0756f') in 0.044210 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/cave_troll/textures/troll_low_troll_body_mat_Normal.tga
-  artifactKey: Guid(45dcee090d03f164aa557687e8db8373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/cave_troll/textures/troll_low_troll_body_mat_Normal.tga using Guid(45dcee090d03f164aa557687e8db8373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1af7fc7aac920d6c4a2a3ef09b5d233') in 0.051917 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/cave_troll/textures/troll_tanga_mat_MetallicSmoothness.tga
-  artifactKey: Guid(8fda7515071dd164dace872e0c240cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/cave_troll/textures/troll_tanga_mat_MetallicSmoothness.tga using Guid(8fda7515071dd164dace872e0c240cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb2f92e6b46f65b4167ae97257d5055f') in 0.046251 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/cave_troll/textures/troll_tanga_normal.tga
-  artifactKey: Guid(5cea48ec60581344ea7a31597b762b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/cave_troll/textures/troll_tanga_normal.tga using Guid(5cea48ec60581344ea7a31597b762b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9154ab1d37b56dc35fafee4135283aad') in 0.052010 seconds 
+  Time since last request: 0.000042 seconds.
+  path: Assets/Textures/mazes.png
+  artifactKey: Guid(27f525399f44e0841ab5b0caea8bcbe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/mazes.png using Guid(27f525399f44e0841ab5b0caea8bcbe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '634bfef848c8ee92689d1cc3ae6a7b09') in 0.019415 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
