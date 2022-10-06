@@ -14,6 +14,8 @@ namespace StarterAssets
 #endif
     public class ThirdPersonController : MonoBehaviour
     {
+        //private Timer timer;
+
         [Header("Player")]
         [Tooltip("Move speed of the character in m/s")]
         public float MoveSpeed = 2.0f;
@@ -134,6 +136,7 @@ namespace StarterAssets
 
         private void Start()
         {
+            //timer=gameObject.GetComponent<Timer> ();
             _cinemachineTargetYaw = CinemachineCameraTarget.transform.rotation.eulerAngles.y;
             
             _hasAnimator = TryGetComponent(out _animator);
@@ -213,6 +216,7 @@ namespace StarterAssets
 
         private void Move()
         {
+            ///timer.startTimer();
             // set target speed based on move speed, sprint speed and if sprint is pressed
             float targetSpeed = _input.sprint ? SprintSpeed : MoveSpeed;
 
